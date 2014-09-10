@@ -1,0 +1,93 @@
+{
+	"Company" : {
+			"Name" : "",
+			"Owner" : {
+				"Name" : "",
+				"Contact" : {
+					"Mobile": "306-501-2049",
+					"LandLine" : "000-000-0000"
+				}
+			}
+		},
+	"Services" : {
+		"Trucking" : {
+			"GeneralCost" : {
+				"Currency" : "CAD",				
+				"hour" : {
+					"cost" : 55
+					} 
+			},				
+				
+			"Vehicles" : [
+				{
+					"VIN" : "01",
+					"specHour" : {
+						"cost" : 55
+						}
+				},
+				{
+					"VIN" : "02",
+					"specHour" : {
+						"cost" : 55
+						}
+				},
+				{
+					"VIN" : "03",
+					"specHour" : {
+						"cost" : 55
+						}
+				}
+			]
+	},
+		"Bus" : {
+			"GeneralCost" : {
+				"Currency" : "CAD",				
+				"hour" : {
+					"minimum" : 3,
+					"cost" : 80
+				}, 
+				"singleDrop": {
+					"cost" : 125
+				}
+			},		
+			"Vehicles" : [
+				{
+					"VIN" : "01",
+					"specHour" : {
+						"minimum" : 3,
+						"cost" : 55
+					},
+					"specSingleDrop": {
+						"cost" : 125
+					}
+				}
+			]		
+		},	
+	},
+		"Limousine" : {
+			"GeneralCost" : {
+				"Currency" : "CAD",				
+				"hour" : {
+					"minimum" : 3,
+					"cost" : 80
+				}, 
+				"singleDrop": {
+					"cost" : 125
+				} 
+			},
+			"Vehicles" : [
+				{
+					"VIN" : "01",
+					"specHour" : {
+						"minimum" : 3,
+						"cost" : 55
+					},
+					"specSingleDrop": {
+						"cost" : 125
+					} 	
+				}
+			]			
+		}
+	}	
+
+}
